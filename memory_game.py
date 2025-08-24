@@ -38,7 +38,7 @@ for row in range(3):
             color_index += 1
 
 
-
+print("hi")
 
 
 
