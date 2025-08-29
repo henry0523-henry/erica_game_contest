@@ -52,7 +52,7 @@ def show_sequence(index=0):
 
 def reset_game():
     global memory_color, is_waiting_for_input, input_index
-    memory_color.clear()
+    memory_color = []
     is_waiting_for_input = False
     input_index = 0
     root.after(500, start_next_round)
